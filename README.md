@@ -1,4 +1,4 @@
-# hyprwind
+# hyprwind-dotfiles
 my custom hyprland dotfiles.
 
 Everything is configured by me except the waybar. I stole it from [this guy](https://github.com/brunoanesio/waybar-config)
