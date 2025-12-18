@@ -1,0 +1,44 @@
+window {
+    font-family: "Agave Nerd Font", monospace;
+    font-size: 24px;
+    font-weight: regular;
+
+
+    background-color: rgba(98, 160, 245, 0.5);
+    backdrop-filter: blur(10px);
+    border: 4px solid #ffffff;
+    border-radius: 30px;
+    box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+#input {
+    color: #000000ff;
+
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#entry {
+    color: #ffffff;
+    font-family: "agave nerd font", monospace;
+    font-size: 22px;
+    padding: 10px;
+}
+
+#entry:selected {
+    background-color: #44475a;
+
+    font-family: "Agave Nerd Font", monospace;
+    font-size: 28px;
+    font-weight: bold;
+
+    border: 4px solid #ffffff;
+    color: #f8f8f2;
+}
+
+#entry:hover {
+    background-color: #6272a4;
+    color: #ffffff;
+}
