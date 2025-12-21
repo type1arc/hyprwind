@@ -6,6 +6,11 @@ Everything is configured by me except the waybar. I stole it from [this guy](htt
 ### installation
 before installing, backup your current config.
 
+install dependencies (if you havent already)
+```fish
+sudo pacman -S hyprland waybar wofi fish`
+```
+
 clone the repo and the corresponding config files to your config folders.
 ```fish
 git clone https://github.com/type1arc/hyprwind ~
@@ -13,5 +18,5 @@ git clone https://github.com/type1arc/hyprwind ~
 cp -r hyprwind/hypr/hyprland.conf   ~/.config/hypr/
 cp -r hyprwind/waybar/*             ~/.config/waybar/
 cp -r hyprwind/wofi/*               ~/.config/wofi/
-cp -r hyprwind/fish/*                ~/.config/fish/
+cp -r hyprwind/fish/*               ~/.config/fish/
 ```
