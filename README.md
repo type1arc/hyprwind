@@ -11,6 +11,13 @@ install dependencies (if you havent already)
 sudo pacman -S hyprland waybar wofi fish
 ```
 
+also install oh-my-fish
+```fish
+  git clone https://github.com/oh-my-fish/oh-my-fish
+  cd oh-my-fish
+  bin/install --offline
+```
+
 clone the repo and the corresponding config files to your config folders.
 ```fish
 git clone https://github.com/type1arc/hyprwind ~
