@@ -8,7 +8,7 @@ before installing, backup your current config.
 
 install dependencies (if you havent already)
 ```fish
-sudo pacman -S hyprland waybar wofi fish`
+sudo pacman -S hyprland waybar wofi fish
 ```
 
 clone the repo and the corresponding config files to your config folders.
