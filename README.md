@@ -27,3 +27,17 @@ cp -r hyprwind/waybar/*             ~/.config/waybar/
 cp -r hyprwind/wofi/*               ~/.config/wofi/
 cp -r hyprwind/fish/*               ~/.config/fish/
 ```
+### Keybinds
+```
+Super T -> open terminal
+Super Q -> kill active window
+Super E -> open file manager
+Super A -> open wofi app launcher
+Super V -> toggle tiling/floating
+
+# Open TUI apps
+Super Y -> yazi
+Super B -> btop
+Super F -> neovim
+Super N -> network manager
+``` 
