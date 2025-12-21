@@ -13,4 +13,5 @@ git clone https://github.com/type1arc/hyprwind ~
 cp -r hyprwind/hypr/hyprland.conf   ~/.config/hypr/
 cp -r hyprwind/waybar/*             ~/.config/waybar/
 cp -r hyprwind/wofi/*               ~/.config/wofi/
+cp -r hyprwind/fish/*                ~/.config/fish/
 ```
