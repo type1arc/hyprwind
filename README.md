@@ -10,6 +10,10 @@ install dependencies (if you havent already)
 ```fish
 sudo pacman -S hyprland waybar wofi fish
 ```
+install ashell (optional)
+```fish
+yay -S ashell-git
+```
 
 also install oh-my-fish
 ```fish
@@ -24,6 +28,8 @@ git clone https://github.com/type1arc/hyprwind ~
 
 cp -r hyprwind/hypr/hyprland.conf   ~/.config/hypr/
 cp -r hyprwind/waybar/*             ~/.config/waybar/
+# or if you want to use ashell
+cp -r hyprwind/ashell/*             ~/.config/ashell/
 cp -r hyprwind/wofi/*               ~/.config/wofi/
 cp -r hyprwind/fish/*               ~/.config/fish/
 ```
