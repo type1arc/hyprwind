@@ -1,0 +1,44 @@
+* {
+    background-color: #1e1e2e;
+    text-color: #cdd6f4;
+    border-color: #89b4fa;
+    border-radius: 3px;
+    font: "Agave Mono 12";
+}
+
+inputbar 
+{
+  background-image: url("~/walls/dae36a74337de05e249ce5afcec907c1.gif", width);
+  padding: 180 0 0;
+  margin: 0 0 0 0;
+}
+
+window {
+    transparency: "real";
+    border: 2px;
+    border-radius: 30px;
+    padding: 25px;
+
+    width: 450px; 
+    height: 890px;
+}
+
+mainbox {
+    spacing: 10px;
+}
+
+listview {
+    lines: 10;
+    spacing: 10px;
+    scrollbar: false;
+}
+
+element {
+    padding: 10px;
+}
+
+element selected {
+    background-color: #89b4fa;
+    text-color: #1e1e2e;
+}
+
