@@ -1,0 +1,48 @@
+# ~/.config/starship.toml
+
+[prompt]
+format = "$all"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+
+[username]
+show_always = true
+style_user = "bold lavender"
+
+[hostname]
+ssh_only = true
+style = "bold pink"
+
+[directory]
+truncation_length = 3
+style = "bold blue"
+
+[git_branch]
+symbol = "🌱 "
+style = "bold mauve"
+
+[git_status]
+style = "bold yellow"
+
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡"
+discharging_symbol = "💀"
+style = "bold green"
+
+[time]
+disabled = false
+format = "🕒 %T"
+style = "bold peach"
+
+[cmd_duration]
+min_time = 2000
+format = "⏱ $duration"
+style = "bold sky"
+
+[package]
+disabled = false
+style = "bold rosewater"
+
