@@ -1,48 +1,24 @@
 # ~/.config/starship.toml
 
-[prompt]
+# Prompt settings
+add_newline = true
 format = "$all"
 
+# Customize prompt symbols
 [character]
-success_symbol = "[❯](bold green)"
-error_symbol = "[❯](bold red)"
+success_symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red)"
 
-[username]
-show_always = true
-style_user = "bold lavender"
-
-[hostname]
-ssh_only = true
-style = "bold pink"
-
+# Directory module
 [directory]
 truncation_length = 3
+truncate_to_repo = false
 style = "bold blue"
 
+# Git module
 [git_branch]
 symbol = "🌱 "
-style = "bold mauve"
+style = "bold purple"
 
 [git_status]
-style = "bold yellow"
-
-[battery]
-full_symbol = "🔋"
-charging_symbol = "⚡"
-discharging_symbol = "💀"
-style = "bold green"
-
-[time]
-disabled = false
-format = "🕒 %T"
-style = "bold peach"
-
-[cmd_duration]
-min_time = 2000
-format = "⏱ $duration"
-style = "bold sky"
-
-[package]
-disabled = false
-style = "bold rosewater"
-
+style = "bold yellow

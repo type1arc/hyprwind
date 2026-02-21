@@ -1,8 +1,10 @@
 if status is-interactive
-    # Commands to run in interactive sessions can go here
+	clear
 end
 
-# Created by `pipx` on 2025-12-21 12:22:20
-set PATH $PATH /home/typeaww/.local/bin
+alias ls='lsd'
+alias cls='clear'
 
-pokemon-colorscripts -r | tail -n +2 
+set -U fish_greeting
+starship init fish | source 
+pokemon-colorscripts --random --no-title
