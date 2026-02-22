@@ -47,5 +47,6 @@ Super B -> btop
 Super F -> neovim
 Super N -> network manager
 ```
+### Screenshot 
 ![Project Logo](screenshot-2026-02-22-073835.png)
 
