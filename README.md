@@ -46,4 +46,5 @@ Super Y -> yazi
 Super B -> btop
 Super F -> neovim
 Super N -> network manager
-``` 
+```
+[[e]]
